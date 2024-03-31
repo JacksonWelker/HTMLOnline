@@ -1,0 +1,85 @@
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center all content by default */
+}
+
+h1, h2, h3 {
+  margin: 1em 0;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #eee;
+  padding: 1em;
+}
+
+nav {
+  display: flex; /* Change to flexbox for horizontal navigation */
+  justify-content: center; /* Center navigation links horizontally */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+/* Main Content Styles */
+main {
+  padding: 2em;
+}
+
+section {
+  margin: 1em 0; /* Add some spacing between sections */
+}
+
+.experience-item, .education-item {
+  margin: 0 auto; /* Center experience and education items */
+  width: 60%; /* Set a fixed width for better layout */
+  text-align: left; /* Left-align content within these items */
+}
+
+.skills ul {
+  display: flex; /* Display skills list as flexbox */
+  flex-wrap: wrap; /* Allow skills to wrap on multiple lines */
+  justify-content: center; /* Center skills horizontally */
+  margin: 0 auto; /* Center list horizontally */
+  padding: 0;
+}
+
+.skills li {
+  margin: 0.5em;
+  list-style: none;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ddd;
+  padding: 1em;
+}
